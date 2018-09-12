@@ -21,5 +21,21 @@
   },
   "resolutions": {
     "bootstrap": "~3.3.5"
-  }
-}
+  },
+    "overrides": {
+        "bootstrap": {
+            "main": [
+                "dist/js/bootstrap.js",
+                "dist/css/bootstrap.css",
+                "less/bootstrap.less"
+            ]
+        },
+        "font-awesome": {
+            "main": [
+                "web-fonts-with-css/less/fontawesome.less",
+                "web-fonts-with-css/css/fontawesome.min.css",
+                "web-fonts-with-css/scss/fontawesome.scss"
+            ]
+        }
+    }
+} 
